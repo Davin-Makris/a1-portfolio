@@ -1,0 +1,50 @@
+
+
+body {
+    background-color: #1c1c1c;
+}
+
+.nav_bar {
+    margin-top: 2%;
+    margin-right: 2%;
+    gap: 5%
+}
+
+.nav_element {
+    display:inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;
+    color: #F5E8D8;
+}
+
+.font {
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    color: #F5E8D8;
+}
+
+.emphasized_font {
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    color: #E47E62;
+    text-align: center;
+    
+}
+
+.outer_box {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+.responsive-img {
+    width: 35%;
+    height: 100%;
+    border-radius: 8%;
+  }
+
+#About-Me-Text {
+    display: inline-flex;
+}
