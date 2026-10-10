@@ -26,17 +26,16 @@ body {
 
 .emphasized_font {
     font-family: 'Times New Roman', Times, serif;
+    font-size: 300%;
     display: inline-block;
     color: #E47E62;
     text-align: center;
     
 }
 
-.outer_box {
-  width: 300px;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
+.project-entry {
+    background-color: #01A7C2;
+    border-radius: 4%;
 }
 
 .responsive-img {
