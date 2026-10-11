@@ -9,6 +9,7 @@ EMAIL: dxmakris@uci.edu
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Davin Makris">
   <meta name="description" content="Personal portfolio for AI/ML Engineer Davin Makris.">
    <!-- you would link to an external stylesheet here! -->
@@ -18,24 +19,23 @@ EMAIL: dxmakris@uci.edu
   <link rel="stylesheet" href="main-style-sheet.css">
   
 </head>
-
-  <div class = "row">
-  <div class = "nav_bar container d-none d-sm-block">
-    <ul>
-      <li class = "nav_element col-md-1 offset-md-7">About Me</li>
-      <li class = "nav_element col-md-1">Projects</li>
-      <li class = "nav_element col-md-1">Contact</li>
-    </ul>
-  </div>
-  </div>
-
+<!-- Nav Bar -->
 <body>
- 
- 
+  <div class = "nav_bar container d-none d-sm-block">
+    <div class = "row">
+      <ul>
+        <li class = "nav_element col-md-1 offset-md-7"><a href="index.html#About-Me-Text">About Me </a></li>
+        <li class = "nav_element col-md-1"><a href="index.html#Projects">Projects </a></li>
+        <li class = "nav_element col-md-1"><a href="index.html#Contact">Contact </a></li>
+      </ul>
+    </div>
+  </div>
+
+<!-- Photo and About Me -->
   <main> 
-    <div class="container d-none d-sm-block">
+    <div class="container d-sm-block">
       <div class="row align-items-center">
-        <img src="DavinM.jpg" alt="", class= "responsive-img col-md-4 offset-md-1">
+        <img src="DavinM.jpg" alt="Portrait of Davin" class="responsive-img d-none d-md-block col-md-4 offset-md-1">
         <div class="col-md-5 offset-md-1">
           <h1 class ="emphasized_font"><strong> Davin Makris</strong></h1>
           <p class = "font" id="About-Me-Text">I am an Artificial Intelligence and Machine Learning Engineer with a core focus on Natural Language Processing.
@@ -46,32 +46,32 @@ EMAIL: dxmakris@uci.edu
     </div>
 
     <div class="py-2 py-md-5"></div>
-
-    <div class="container d-none d-sm-block"> 
-      <h1 class = "col-md-6 offset-md-3 emphasized_font"><strong>Experience</strong></h1>
+<!-- Experience -->
+    <div class="container d-sm-block" id = "Projects"> 
+      <h2 class = "col-md-6 offset-md-3 emphasized_font"><strong>Experience</strong></h2>
     </div>
     
     <div class="container col-md-9 offset-md-2 project-entry"> 
-      <h1 class = "col-md-10 offset-md-1 text-center"><strong class="font">Artificial Intelligence Engineer Intern @ Neoboard</strong></h1>
-      <p class = "col-md-8 offset-md-2 project-entry"> RAG | Classification Fine tuning | Webscraping | AWS | Typescript | Python | Docker | Explainable AI</p>
+      <h2 class = "col-md-10 offset-md-1 text-center"><strong class="font">Artificial Intelligence Engineer Intern @ Neoboard</strong></h2>
+      <p class = "col-md-8 offset-md-2 project-entry projectFont"> RAG | Classification Fine tuning | Webscraping | AWS | Typescript | Python | Docker | Explainable AI</p>
     </div>
 
     <div class="my-1 py-md-3"></div>
 
     <div class="container col-md-9 offset-md-2 project-entry"> 
-      <h1 class = "col-md-9 offset-md-1 text-center"><strong class="font">Data Science Program Assistant @ UCI ICSSA</strong></h1>
+      <h2 class = "col-md-9 offset-md-1 text-center"><strong class="font">Data Science Program Assistant @ UCI ICSSA</strong></h2>
       <p class = "col-md-8 offset-md-2 project-entry"> RStudio | Linear + Logistic Regression | Tidyverse | Data Visualization | Hypothesis Testing </p>
     </div>
 
     <div class="py-2 py-md-5"></div>
-
+<!-- Projects -->
     <div class="container d-none d-sm-block"> 
-      <h1 class = "col-md-6 offset-md-3 emphasized_font"><strong>Selected Projects</strong></h1>
+      <h2 class = "col-md-6 offset-md-3 emphasized_font"><strong>Selected Projects</strong></h2>
     </div>
     
   <div class="container d-none d-sm-block">
     <div class="col-md-10 offset-md-1 text-start font">
-      <h1><i>Source Checker</i></h1>
+      <h2><em>Source Checker</em></h2>
       <ul class="ps-3 font">
         <li>Fine-tuned a language model to identify citation and source-reference patterns in written content.</li>
         <li>Built a source-retrieval pipeline that locates referenced material and ranks relevant passages.</li>
@@ -81,7 +81,7 @@ EMAIL: dxmakris@uci.edu
     </div>
 
     <div class="col-md-10 offset-md-1 text-start font">
-      <h1><i>This Website</i></h1>
+      <h2><em>This Website</em></h2>
       <ul class="ps-3 font">
         <li>Built from scratch using simple HTML and CSS.</li>
         <li>Dyamically resizes across multiple device sizes by using Bootstrap.</li>
@@ -89,19 +89,19 @@ EMAIL: dxmakris@uci.edu
     </div>
 
     <div class="col-md-10 offset-md-1 text-start font">
-      <h1><i>Third Project</i></h1>
+      <h2><em>Third Project</em></h2>
       <ul class="ps-3 font">
         <li>With descriptive bulletpoints.</li>
         <li>Describing its features.</li>
       </ul>
     </div>
   </div>
+<!-- Contact Me -->
+  <section class="container col-md-8 offset-md-2 mt-5 mb-5 font d-block" id = "Contact">
+    <h2 class="emphasized_font text-center"><strong>Want to work together? Contact me here</strong></h2>
+    
 
-  <section class="container col-md-8 offset-md-2 mt-5 mb-5 font">
-    <h1 class="emphasized_font"><strong>Contact Me</strong></h1>
-    <p>Connect with me on <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>.</p>
-
-    <form action="#" method="post">
+    <form class="contact-form" action="#" method="post">
       <div class="mb-3">
         <label for="name">Name</label>
         <input class="form-control" type="text" id="name" name="name" required>
@@ -114,8 +114,10 @@ EMAIL: dxmakris@uci.edu
         <label for="message">Message</label>
         <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
       </div>
-      <button class="btn btn-light" type="submit">Send Message</button>
+      <button class="btn contact-button" type="submit">Send Message</button>
     </form>
+
+    <p>... or connect with me on <a href="https://www.linkedin.com/in/davin-xavier-makris-676b14272/" target="_blank">LinkedIn</a>.</p>
   </section>
 
   </main>
